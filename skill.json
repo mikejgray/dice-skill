@@ -1,1 +1,48 @@
-{}
+{
+    "title": "Dice",
+    "url": "https://github.com/mikejgray/dice-skill",
+    "summary": "Generates random numbers for you",
+    "short_description": "Generates random numbers for you",
+    "description": "This skill enables mycroft to generate random numbers for you. You either need to specify a range or type of dice (e.g. d20). Perfect whenever you need to generate a random number, but don't have a dice nearby.",
+    "examples": [
+        "roll a dice",
+        "roll a d20",
+        "generate a random number between 0 and 5"
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "ovos_lingua_franca"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "Unknown",
+    "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/dice.svg",
+    "category": "Entertainment",
+    "categories": [
+        "Entertainment"
+    ],
+    "tags": [
+        "dice",
+        "random",
+        "dnd"
+    ],
+    "credits": [
+        "Dragoncraft89"
+    ],
+    "skillname": "dice-skill",
+    "authorname": "mikejgray",
+    "foldername": null
+}
